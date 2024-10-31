@@ -1,0 +1,125 @@
+.qzorg-pagination-result {
+    text-align: center;
+    margin: 10px 0;
+    display: flex;
+    width: 210px;
+    justify-content: space-between;
+}
+
+.qzorg-pagination-result a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.qzorg-pagination-result a:hover {
+    background-color: #ddd;
+}
+
+
+.qzorg-submission-status {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+.qzorg-submission-status .qzorg-status-wrap {
+    margin: 5px;
+}
+
+.qzorg-submission-status .qzorg-status-wrap table tbody {
+    background-color: #f5f5f5;
+}
+
+.qzorg-submission-status .qzorg-user-details span.qzorg-label {
+    display: inline-block;
+    font-weight: 500;
+    width: 100px;
+}
+
+.qzorg-submission-status .qzorg-quiz-details span.qzorg-label {
+    display: inline-block;
+    font-weight: 500;
+    min-width: 150px;
+}
+
+.qzorg-submission-status .qzorg-user-details span.qzorg-info,
+.qzorg-submission-status .qzorg-quiz-details span.qzorg-info {
+    font-style: italic;
+}
+
+.qzorg-submission-status .qzorg-status-wrap li {
+    border-bottom: 1px solid #dd620b12;
+    padding: 5px 0 0 0;
+}
+
+.qzorg-user-duration .display-duration {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0,0,0,.07);
+}
+
+.qzorg-user-duration .display-duration .time {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f0f0f1;
+    width: 28%;
+    font-weight: 500;
+    height: 70px;
+}
+
+.qzorg-user-duration .display-duration .time>div:last-child {
+    font-size: 25px;
+}
+
+.qzorg-correct-answer-after::before {
+    background-color: #53B261;
+    position: absolute;
+    content: "\2714";
+    color: #FFFFFF;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 50px;
+    font-weight: bolder;
+}
+
+.qzorg-incorrect-answer-after::before {
+    background-color: #ff0000;
+    position: absolute;
+    content: "\2716";
+    color: #FFFFFF;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 50px;
+    font-weight: bolder;
+}
+
+
+.qzorg-quiz-r-answer-options.qzorg-correct-r-answer::before {
+    position: absolute;
+    content: "\27A4";
+    color: #00ff00;
+    height: 23px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 29px;
+    font-weight: bolder;
+    font-size: 17px;
+}

@@ -1,0 +1,70 @@
+#the-list .qzorg-category-edit,
+#the-list .qzorg-category-remove {
+    color: #0783BE;
+    cursor: pointer;
+    width: 20%;
+}
+
+#the-list .qzorg-category-remove:hover {
+    color: #b32d2e;
+}
+
+.qzorg-custom .qzorg-default-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qzorg-top-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.qzorg-top-actions>div {
+    margin: 10px 0 15px 0;
+}
+
+.qzorg-quiz-filters-inner>div {
+    margin-left: 4px;
+}
+
+.qzorg-quiz-filters-inner {
+    display: flex;
+    align-items: end;
+}
+
+.qzorg-quiz-filters-inner #category_name {
+    width: 250px;
+}
+
+.qzorg-quiz-filters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qzorg-modal-inner input,
+.qzorg-modal-inner textarea {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.qzorg-button {
+    background-color: #444444;
+    color: #fff;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
